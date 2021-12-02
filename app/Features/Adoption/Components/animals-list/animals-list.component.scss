@@ -1,0 +1,25 @@
+.organizer{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    
+}
+
+.Titulo{
+    font-size: 40px;
+    font-family:cursive;
+}
+
+input{
+    margin-right: 40px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.busca{
+    font-size: 20px;
+    font-family:cursive;
+}
+

@@ -1,0 +1,35 @@
+
+nav{
+    background-color: rgb(211, 155, 211);
+    height: 180px;
+    display: -moz-inline-stacks;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px inset;
+
+    h1{
+        line-height: 50px;
+        font-family: cursive;
+        font-size: 50px;
+        display: flex;
+    }
+    
+    h3{
+        font-family: cursive;
+        display: flex;
+    }
+
+    ul{
+        align-items: center;
+        padding-left: 100px;
+        font-family: cursive;
+        font-size: 20px;
+        list-style: circle;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        li {
+            cursor: pointer;
+        }
+    }
+}

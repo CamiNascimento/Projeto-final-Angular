@@ -1,0 +1,14 @@
+<div>
+    <ul>
+        <li><h3>Nome: {{animal?.nome | uppercase}}</h3></li>
+        <img width="250px" height="250px"
+        [src]="animal?.img">
+        <li><p>Espécie: {{animal?.especie}}</p></li>
+        <li><p>Raça: {{animal?.raca}}</p></li>
+        <li><p>Sexo: {{animal?.sexo}}</p></li>
+        <li><p>Idade: {{animal?.idade}}</p></li>
+        <li><p>Taxa de Adoção: {{animal?.taxa | currency:"BRL"}}</p></li>
+    </ul>
+    
+</div>
+

@@ -1,0 +1,11 @@
+<div>
+    <h2><b class="Titulo">Lista para Adoção</b></h2>
+    <div>
+        <p class="busca"><b>Faça sua busca por espécie ou raça:</b></p>
+        <input type="text" placeholder="Digite a espécie" (keyup)="searchByEspecie($event)">
+        <input type="text" placeholder="Digite a raça" (keyup)="searchByRaca($event)">
+    </div>
+        <ul class="organizer"> 
+        <app-animal *ngFor="let item of filteredAnimals " [animal]="item"></app-animal>
+    </ul>
+</div>

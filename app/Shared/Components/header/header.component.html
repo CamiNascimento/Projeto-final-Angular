@@ -1,0 +1,13 @@
+
+<nav>
+    <h1>Adote com o coração</h1>
+    <h3>Dia de Hoje: {{datahoje}} </h3>
+     <ul>
+        
+        <li (click)="NavigateByURL('lista-para-adocao')" *ngIf="user">Adoção</li>
+        <li (click)="NavigateByURL('login')" *ngIf="!user">Login</li>
+        <li (click)="NavigateByURL('cadastro')" *ngIf="!user">Cadastro</li>
+        <li (click)="exit()" *ngIf="user">Sair</li>
+    </ul>
+    
+</nav>
